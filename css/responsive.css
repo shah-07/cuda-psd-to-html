@@ -120,6 +120,9 @@
     h3 {
         font-size: 1.2em;
     }
+   .header-area .header-logo {
+        text-align: left;
+    }
     .header-area .logo-menu .header-menu {
         display: none;
     }
@@ -132,8 +135,8 @@
         text-align: right;
         font-size: 2em;
         position: absolute;
-        top: 20%;
-        right: 0;
+        top: 15%;
+        right: 5%;
     }
     .header-area .logo-menu .header-menu.show {
         display: block;
