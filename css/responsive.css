@@ -40,9 +40,12 @@
 
 }
 
+
+
+
 @media all and (max-width: 768px) {
     .container {
-        width: 95%;
+        width: 90%;
     }
     .flex-container {
         justify-content: space-around;
@@ -69,7 +72,7 @@
     .header-menu {
         width: 95%;
     }
-    .header-menu li {
+    .header-menu ul li {
         display: block;
         margin-bottom: 10px;
     }
@@ -105,12 +108,35 @@
     }
 
 }
+
+
+
+
+
 @media all and (max-width:600px) {
     h2 {
         font-size: 1.7em;
     }
     h3 {
         font-size: 1.2em;
+    }
+    .header-area .logo-menu .header-menu {
+        display: none;
+    }
+    .header-area .header-logo {
+        position: relative;
+    }
+    .header-area .header-logo .fas {
+        color: white;
+        display: inline-block;
+        text-align: right;
+        font-size: 2em;
+        position: absolute;
+        top: 20%;
+        right: 0;
+    }
+    .header-area .logo-menu .header-menu.show {
+        display: block;
     }
     .call-action h1 {
         font-size: 1.5em;

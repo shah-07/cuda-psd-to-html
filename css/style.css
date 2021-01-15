@@ -54,15 +54,17 @@ hr {
 
 .header-area {
     background-color: #86509C;
-    height: 90vh;
+    min-height: 90vh;
     padding: 5vh 0;
 }
-
-.header-menu li {
+.header-area .header-logo .fas {
+    display: none;
+}
+.header-menu ul li {
     display: inline;
     margin-left: 10px;
 } 
-.header-menu a {
+.header-menu ul li a {
     display: inline-block;
     text-transform: uppercase;
     color: #fff;
@@ -112,10 +114,6 @@ hr {
     width: 75%;
     margin: 20px auto;
 }
-.service-area img {
-    width: 110px;
-    height: 110px;
-}
 .services {
     padding-top: 50px;
 }
@@ -164,13 +162,19 @@ hr {
 }
 .social-links i {
     color: #8492ad;
-    font-size: 1.7em;
+    font-size: 1.2em;
     border-radius: 50%;
     margin-right: 10px;
     cursor: pointer;
+    transition: .3s;
 }
-.social-links i:hover {
-    color: #30BAE8;
+.team-area .social-links i:hover {
+    color: #fff;
+    background-color: #30BAE8;
+}
+.team-area .social-links i {
+    padding: 12px;
+    background-color: #DFE6E9;
 }
 
 
@@ -201,15 +205,15 @@ hr {
 .skills img {
     width: 150px;
 }
-.skills .col {
+.skills .circle-img {
     position: relative;
 }
 .skills span {
     font-size: 45px;
     position: absolute;
-    top: 32%;
     left: 50%;
-    transform: translate(-49%, -50%);
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
@@ -405,7 +409,11 @@ hr {
 .contact-form .btn:hover {
     background-color: #299EC5;
 }
-
+.contact-area .contact-form input::placeholder,
+.contact-area .contact-form textarea::placeholder {
+    font-size: 18px;
+    opacity: .8;
+}
 
 
 
