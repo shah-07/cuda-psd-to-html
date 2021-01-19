@@ -151,9 +151,19 @@
     .clients .col {
         width: 70%;
     }
-    .about-area .client-bio p {
-        font-size: 1.1em;
+
+
+    .about-area .col {
+        text-align: center;
     }
+    .about-area .client-img {
+        width: 100%;
+    }
+    .about-area .client-bio {
+        width: 100%;
+    }
+
+
     .portfolio-menu li {
         display: block;
         margin-bottom: 15px;
