@@ -43,10 +43,8 @@ hr {
     font-weight: 600;
     text-transform: uppercase;
     border-radius: 3px;
-    padding: 15px 50px;    
+    padding: 15px 50px;
 }
-
-
 
 
 
@@ -171,6 +169,7 @@ hr {
 .team-area .social-links i:hover {
     color: #fff;
     background-color: #30BAE8;
+    transform: rotate(360deg);
 }
 .team-area .social-links i {
     padding: 12px;
@@ -261,7 +260,7 @@ hr {
 }
 .portfolio-area .portfolio-menu a:hover {
     color: #18C2A5;
-    background-color: #fff;
+    box-shadow: 0 5px 5px rgba(96, 88, 74, 0.9);
 }
 .portfolio-area .portfolio-menu .active a {
     background-color: #fff;
@@ -283,6 +282,7 @@ hr {
 }
 .portfolio-area .btn:hover {
     background-color: #14A58C;
+    box-shadow: 0 5px 5px rgba(96, 88, 74, 0.9);
 }
 
 
